@@ -1,0 +1,45 @@
+{
+  "name": "@lxgicstudios/regex-test",
+  "version": "1.0.0",
+  "description": "Test regex patterns from the CLI. Highlight matches with colors, show capture groups, named groups, and get plain-English explanations of your patterns.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "regex-test": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "regex",
+    "regexp",
+    "regular-expression",
+    "pattern",
+    "test",
+    "cli",
+    "terminal",
+    "match",
+    "capture-groups",
+    "developer-tools",
+    "string-matching",
+    "text-processing",
+    "debugging"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/regex-test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
